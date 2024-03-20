@@ -1,0 +1,20 @@
+.reg-class {
+    color: #000;
+    background-color: #ff6674;
+    font-family: Verdana, 'DejaVu Sans', Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+.cooler-class {
+    font-size: 24px;
+}
+
+#one-id {
+    color: #7fcfea;
+    font-size: 36px;
+}
+
+.cooler-class#two-id {
+    background-color: #82dc82;
+    font-weight: bold;  
+}
