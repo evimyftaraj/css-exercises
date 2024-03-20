@@ -8,7 +8,8 @@ body {
   font-size: 22px;
 }
 
-.small-para {
+/* more specificity with chained classes */
+.para.small-para { 
   font-size: 14px;
 }
 
@@ -18,21 +19,20 @@ body {
   font-weight: bold;
   font-size: 20px;
 } 
-
-#cancel-button {
+/* ID > class in specificity, so default button looks white, but ID button will look green */
+.button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
-}
-
-div .child {
-  color: rgb(0, 0, 0);
-  font-weight: 1000;
-  font-size: 14px;
 }
 
 .text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+div .child {
+  font-weight: 1000;
+  font-size: 14px;
 }
